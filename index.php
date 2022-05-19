@@ -81,6 +81,9 @@ $err = 0; //Сбор ошибок при анализе формы
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=IBM+Plex+Serif&family=PT+Sans:ital@1&family=Rowdies&family=Rubik&family=Source+Sans+Pro:wght@300&family=Ubuntu+Condensed&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <title>Timeline</title>
 </head>
 <body>
@@ -109,8 +112,8 @@ $err = 0; //Сбор ошибок при анализе формы
             <h3>Регистрация</h3>
             <form action="" method="POST">
                 <br>
-                <input placeholder="Логин" type="text" value="<?php echo $login; ?>" name="login"><br><br>
-                <input placeholder="Пароль" type="password" name="password"><br><br>
+                <input class="inp" placeholder="Логин" type="text" value="<?php echo $login; ?>" name="login"><br><br>
+                <input class="inp" placeholder="Пароль" type="password" name="password"><br><br>
                 <input class="btn" name="reg" type="submit" value="Регистрация">
             </form>
         </div>
@@ -119,8 +122,8 @@ $err = 0; //Сбор ошибок при анализе формы
             <h3>Вход</h3>
             <form action="" method="POST">
                 <br>
-                <input placeholder="Логин" type="text" value="<?php echo $login; ?>" name="login"><br><br>
-                <input placeholder="Пароль" type="password" name="password"><br><br>
+                <input class="inp" placeholder="Логин" type="text" value="<?php echo $login; ?>" name="login"><br><br>
+                <input class="inp" placeholder="Пароль" type="password" name="password"><br><br>
                 <input class="btn" name="in" type="submit" value="Войти">
             </form>
         </div>

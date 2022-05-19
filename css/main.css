@@ -1,6 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .center{
@@ -38,3 +46,68 @@
     max-width: 300px;
     margin: auto;
 }
+
+/* Дизайн инпутов */
+.inp{
+    padding: 10px;
+    border: 0;
+    background-color: rgb(198, 198, 198);
+    text-align: center;
+}
+
+/* Хедер */
+.header{
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    float: right;
+    padding: 10px;
+}
+.left{
+    float: left;
+    padding: 10px;
+}
+
+.right a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.left a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.b{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: White;
+}
+
+.btn_go{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.btn_go img{
+    border-radius: 50%;
+}
+
+.c_blue{
+    background-color: Blue;
+}
+.c_green{
+    background-color: rgb(20, 176, 0);
+}
+.c_red{
+    background-color: Red;
+}
+
+
